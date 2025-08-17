@@ -1,0 +1,17 @@
+                            html{
+                                    scroll-behavior: smooth;
+                                }
+                            body{
+                                background-color: rgb(169, 197, 160);
+                                margin-top: 100px;
+                                font-family: Roboto;
+                            }
+                            h1{
+                            background-color: #b0e0e6;
+                            color: #5c573e;
+                            font-style: italic;
+                            text-align: center;
+                            border-radius: 10px;
+                        
+                        }
+                        

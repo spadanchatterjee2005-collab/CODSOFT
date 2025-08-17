@@ -1,0 +1,197 @@
+
+                                
+                            
+                            
+                                .pic-info{
+                                    display: grid;
+                                    grid-template-columns: 2fr  1fr;
+                                    
+                                    background-color: #555;
+                                }
+
+                                .name{
+                                    font-size: 40px;
+                                    font-weight: bold;
+                                    color: rgb(57, 56, 56);
+                                    margin-bottom: 10px;
+                                    padding-left: 12px;
+                                    background-color: rgb(169, 197, 160);
+                                }
+                                .intro{
+                                    color: white;
+                                    padding-left: 10px;
+                                }
+                                .info button{
+                                    background-color: rgb(197, 227, 192);
+                                    border-radius: 6px;
+                                    height: 50px;
+                                    width: 120px;
+                                    cursor: pointer;
+                                    border-style: solid;
+                                    margin-left: 15px;
+                                    color: rgb(14, 14, 14);
+                                    font-weight: 700;
+                                    transition: .15s;
+                                }
+                                .info button:hover{
+                                    opacity: 0.7;
+                                }
+                                .profile-card {
+                               background-color: #fff;
+                               border-radius: 12px;
+                               box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+                               width: 220px;
+                              text-align: center;
+                              padding: 20px;
+                              }
+                                .profile-image {
+                        width: 100%;
+                        height:200px;
+                        border-radius: 8px;
+                        object-fit: cover;
+                        }
+
+                        .name-pic {
+                        font-size: 22px;
+                        font-weight: 700;
+                        margin-top: 15px;
+                        color: #333;
+                        }
+
+                        .title {
+                        font-size: 16px;
+                        color: #777;
+                        margin-top: 5px;
+                        }
+
+                        .bio {
+                        font-size: 14px;
+                        color: #555;
+                        margin-top: 10px;
+                        }
+                        .skill-section{
+                            color: white;
+                            display: grid;
+                            background-color: #fdfbd4;
+                            margin-top: 15px;
+                            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                            align-items: center;
+                            padding-left: 15px;
+                            height: 300px;
+                        }
+                        .skill-section img{
+                            width: 150px;
+                        }
+                        .skill-section img{
+                            transition: 1s;
+
+                        }
+                        .skill-section img:hover{
+                            transform: scale(1.5);
+                        }
+                        
+                        .service-section{
+                            display: grid;
+                            column-gap: 12px;
+                            
+                            grid-template-columns: 1fr 1fr 1fr;
+                            row-gap: 12px;
+                            
+                        }
+                        .service-element{
+                        background: linear-gradient(rgb(108, 143, 102),rgb(81, 78, 73));
+                            height: 175px;
+                            border-radius: 20px;
+                            text-align: center;
+                            color: black;
+                            font-size: 20px;
+                            font-style: bold;
+                            opacity: 0.6;
+                            font-weight: 700;
+                            font-family: Arial, Helvetica, sans-serif;
+                            
+                            
+                        }
+                        .description{
+                        color: aliceblue;
+                        text-align: left;
+                        font-size: 16px;
+                        }
+                        .works{
+                            display: grid;
+                            grid-template-columns: 500px 1fr;
+                            column-gap: 15px;
+                            
+                        }
+                        .works .pic-wrk img{
+                            width: 100%;
+                        }
+                        .description-wrk{
+                            background: linear-gradient(rgb(108, 143, 102),#7d7a7a);
+                            
+                            border-radius: 20px;
+                            text-align: center;
+                            padding-top: 20px;
+                            font-size: larger;
+                            
+                        }
+                        .description-wrk p{
+                            text-align: left;
+                            color: white;
+                            font-size: 17px;
+                            
+
+                        }
+                        .work-vid{
+                            margin-top: 10px;
+                            display: grid;
+                            grid-template-columns: 1fr 500px ;
+                            column-gap: 15px;
+
+                        }
+                        .work-vid .vid-wrk video{
+                            width: 100%;
+                        }
+                        .description-vid{
+                            background: linear-gradient(rgb(108, 143, 102),#7d7a7a);
+                            background-color: ;
+                            border-radius: 20px;
+                            text-align: center;
+                            padding-top: 20px;
+                            font-size: larger;
+                            
+                        }
+                        .description-vid p{
+                            text-align: left;
+                            color: white;
+                            font-size: 17px;
+
+                        }
+                        .description-vid p a{
+                            cursor: pointer;
+                        }
+                        .contact{
+                            display: grid;
+                            grid-template-columns: 200px 200px 200px;
+                            column-gap: 8px;
+                            
+                            align-items: center;
+                            background: linear-gradient(rgb(108, 143, 102),#7d7a7a);
+                            justify-content: center;
+                        }
+                        .contact-icon{
+                        
+                        transition: 0.15s;
+                        padding-left: 10px;
+                        }
+                        .contact-icon:hover{
+                            transform: scale(1.5);
+                        }
+                        
+                    
+
+                            
+                            
+                            
+                            
+                            
